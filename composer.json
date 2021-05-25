@@ -14,8 +14,8 @@
     "minimum-stability":"dev",
     "require": {
         "php": ">=5.3",
-        "bshaffer/oauth2-server-php": ">=1.0",
-        "bshaffer/oauth2-server-httpfoundation-bridge": "^1.2"
+        "wirelane/oauth2-server-php": "dev-fix_set-status-code",
+        "wirelane/oauth2-server-httpfoundation-bridge": "dev-fix_set-status-code"
     },
     "require-dev": {
         "symfony/symfony": "^2.8|^3",
@@ -24,5 +24,15 @@
     "autoload": {
         "psr-0": { "OAuth2\\ServerBundle": "" }
     },
-    "target-dir": "OAuth2/ServerBundle"
+    "target-dir": "OAuth2/ServerBundle",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/wirelane/oauth2-server-php"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/wirelane/oauth2-server-httpfoundation-bridge"
+        }
+    ]
 }

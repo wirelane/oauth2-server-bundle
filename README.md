@@ -1,3 +1,8 @@
+## FORK
+The purpose of this fork is to make the \OAuth2\ResponseInterface::setStatusCode() compatible with Symfony >= 4.<br>
+Currently it throws the following error when trying to use the oauth2-server-bundle from a PHP 7.4/Symfony 4/5 application:<br>
+``Compile Error: Declaration of OAuth2\HttpFoundationBridge\Response::setStatusCode($statusCode, $text = NULL) must be compatible with Symfony\Component\HttpFoundation\Response::setStatusCode(int $code, $text = NULL): object``
+
 # OAuth2 Server Bundle
 
 OAuth2 Server Bundle for Symfony 2, built on the [oauth2-server-php](https://github.com/bshaffer/oauth2-server-php) library.
