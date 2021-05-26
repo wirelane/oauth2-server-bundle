@@ -27,7 +27,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/wirelane/oauth2-server-php.git"
+            "url": "ssh://git@github.com/wirelane/oauth2-server-php.git"
         },
         {
             "type": "git",
