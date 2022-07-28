@@ -33,6 +33,11 @@ class RefreshToken
     private $client;
 
     /**
+     * @var string
+     */
+    private $rfid;
+
+    /**
      * Set token
      *
      * @param  string       $token
@@ -152,5 +157,25 @@ class RefreshToken
     public function getClient()
     {
         return $this->client;
+    }
+
+    /**
+     * @return string
+     */
+    public function getRfid()
+    {
+        return $this->rfid;
+    }
+
+    /**
+     * @param string $rfid
+     *
+     * @return string
+     */
+    public function setRfid($rfid)
+    {
+        $this->rfid = $rfid;
+
+        return $this;
     }
 }
