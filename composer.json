@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.3",
         "wirelane/oauth2-server-php": "dev-feature/SWPROD-3657_add-rfid-number",
-        "wirelane/oauth2-server-httpfoundation-bridge": "*"
+        "wirelane/oauth2-server-httpfoundation-bridge": "feature/SWPROD-3657_rfid-login"
     },
     "require-dev": {
         "doctrine/orm": "~2.4,>=2.4.5"
@@ -27,11 +27,11 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/wirelane/oauth2-server-php.git"
+            "url": "git@github.com:andythedandy/oauth2-server-php.git"
         },
         {
             "type": "git",
-            "url": "https://github.com/wirelane/oauth2-server-httpfoundation-bridge.git"
+            "url": "git@github.com:andythedandy/oauth2-server-httpfoundation-bridge.git"
         }
     ]
 }
