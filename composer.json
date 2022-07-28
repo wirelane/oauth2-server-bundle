@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.3",
         "wirelane/oauth2-server-php": "dev-feature/SWPROD-3657_add-rfid-number",
-        "wirelane/oauth2-server-httpfoundation-bridge": "feature/SWPROD-3657_rfid-login"
+        "wirelane/oauth2-server-httpfoundation-bridge": "dev-feature/SWPROD-3657_rfid-login"
     },
     "require-dev": {
         "doctrine/orm": "~2.4,>=2.4.5"
